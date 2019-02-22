@@ -1,0 +1,26 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2017
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TextToSpeechExample", "TextToSpeechExample.csproj", "{79D46DF3-FA2F-7C4B-2AC6-167A51A48DD5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TextToSpeechExample.Editor", "TextToSpeechExample.Editor.csproj", "{2FEF59CC-F532-78C0-CACB-384F6A5D2E08}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{79D46DF3-FA2F-7C4B-2AC6-167A51A48DD5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{79D46DF3-FA2F-7C4B-2AC6-167A51A48DD5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{79D46DF3-FA2F-7C4B-2AC6-167A51A48DD5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{79D46DF3-FA2F-7C4B-2AC6-167A51A48DD5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2FEF59CC-F532-78C0-CACB-384F6A5D2E08}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2FEF59CC-F532-78C0-CACB-384F6A5D2E08}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2FEF59CC-F532-78C0-CACB-384F6A5D2E08}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2FEF59CC-F532-78C0-CACB-384F6A5D2E08}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,544 @@
+-debug
+-target:library
+-nowarn:0169
+-langversion:4
+-out:Temp/Assembly-CSharp.dll
+-unsafe
+-r:"C:/Program Files/Unity/Editor/Data/Managed/UnityEditor.dll"
+-r:"C:\Program Files\Unity\Editor\Data\PlaybackEngines\MetroSupport/Tools/UnityEngine.dll"
+-r:"C:\Program Files\Unity\Editor\Data\PlaybackEngines\MetroSupport/Tools/UnityEngine.CoreModule.dll"
+-r:"C:\Program Files\Unity\Editor\Data\PlaybackEngines\MetroSupport/Tools/UnityEngine.AccessibilityModule.dll"
+-r:"C:\Program Files\Unity\Editor\Data\PlaybackEngines\MetroSupport/Tools/UnityEngine.ParticleSystemModule.dll"
+-r:"C:\Program Files\Unity\Editor\Data\PlaybackEngines\MetroSupport/Tools/UnityEngine.PhysicsModule.dll"
+-r:"C:\Program Files\Unity\Editor\Data\PlaybackEngines\MetroSupport/Tools/UnityEngine.VehiclesModule.dll"
+-r:"C:\Program Files\Unity\Editor\Data\PlaybackEngines\MetroSupport/Tools/UnityEngine.ClothModule.dll"
+-r:"C:\Program Files\Unity\Editor\Data\PlaybackEngines\MetroSupport/Tools/UnityEngine.AIModule.dll"
+-r:"C:\Program Files\Unity\Editor\Data\PlaybackEngines\MetroSupport/Tools/UnityEngine.AnimationModule.dll"
+-r:"C:\Program Files\Unity\Editor\Data\PlaybackEngines\MetroSupport/Tools/UnityEngine.TextRenderingModule.dll"
+-r:"C:\Program Files\Unity\Editor\Data\PlaybackEngines\MetroSupport/Tools/UnityEngine.UIModule.dll"
+-r:"C:\Program Files\Unity\Editor\Data\PlaybackEngines\MetroSupport/Tools/UnityEngine.TerrainPhysicsModule.dll"
+-r:"C:\Program Files\Unity\Editor\Data\PlaybackEngines\MetroSupport/Tools/UnityEngine.IMGUIModule.dll"
+-r:"C:\Program Files\Unity\Editor\Data\PlaybackEngines\MetroSupport/Tools/UnityEngine.UnityWebRequestModule.dll"
+-r:"C:\Program Files\Unity\Editor\Data\PlaybackEngines\MetroSupport/Tools/UnityEngine.UnityWebRequestAudioModule.dll"
+-r:"C:\Program Files\Unity\Editor\Data\PlaybackEngines\MetroSupport/Tools/UnityEngine.UnityWebRequestTextureModule.dll"
+-r:"C:\Program Files\Unity\Editor\Data\PlaybackEngines\MetroSupport/Tools/UnityEngine.UnityWebRequestWWWModule.dll"
+-r:"C:\Program Files\Unity\Editor\Data\PlaybackEngines\MetroSupport/Tools/UnityEngine.UNETModule.dll"
+-r:"C:\Program Files\Unity\Editor\Data\PlaybackEngines\MetroSupport/Tools/UnityEngine.DirectorModule.dll"
+-r:"C:\Program Files\Unity\Editor\Data\PlaybackEngines\MetroSupport/Tools/UnityEngine.UnityAnalyticsModule.dll"
+-r:"C:\Program Files\Unity\Editor\Data\PlaybackEngines\MetroSupport/Tools/UnityEngine.CrashReportingModule.dll"
+-r:"C:\Program Files\Unity\Editor\Data\PlaybackEngines\MetroSupport/Tools/UnityEngine.PerformanceReportingModule.dll"
+-r:"C:\Program Files\Unity\Editor\Data\PlaybackEngines\MetroSupport/Tools/UnityEngine.UnityConnectModule.dll"
+-r:"C:\Program Files\Unity\Editor\Data\PlaybackEngines\MetroSupport/Tools/UnityEngine.WebModule.dll"
+-r:"C:\Program Files\Unity\Editor\Data\PlaybackEngines\MetroSupport/Tools/UnityEngine.ARModule.dll"
+-r:"C:\Program Files\Unity\Editor\Data\PlaybackEngines\MetroSupport/Tools/UnityEngine.VRModule.dll"
+-r:"C:\Program Files\Unity\Editor\Data\PlaybackEngines\MetroSupport/Tools/UnityEngine.UIElementsModule.dll"
+-r:"C:\Program Files\Unity\Editor\Data\PlaybackEngines\MetroSupport/Tools/UnityEngine.StyleSheetsModule.dll"
+-r:"C:\Program Files\Unity\Editor\Data\PlaybackEngines\MetroSupport/Tools/UnityEngine.AudioModule.dll"
+-r:"C:\Program Files\Unity\Editor\Data\PlaybackEngines\MetroSupport/Tools/UnityEngine.GameCenterModule.dll"
+-r:"C:\Program Files\Unity\Editor\Data\PlaybackEngines\MetroSupport/Tools/UnityEngine.GridModule.dll"
+-r:"C:\Program Files\Unity\Editor\Data\PlaybackEngines\MetroSupport/Tools/UnityEngine.ImageConversionModule.dll"
+-r:"C:\Program Files\Unity\Editor\Data\PlaybackEngines\MetroSupport/Tools/UnityEngine.InputModule.dll"
+-r:"C:\Program Files\Unity\Editor\Data\PlaybackEngines\MetroSupport/Tools/UnityEngine.JSONSerializeModule.dll"
+-r:"C:\Program Files\Unity\Editor\Data\PlaybackEngines\MetroSupport/Tools/UnityEngine.ParticlesLegacyModule.dll"
+-r:"C:\Program Files\Unity\Editor\Data\PlaybackEngines\MetroSupport/Tools/UnityEngine.Physics2DModule.dll"
+-r:"C:\Program Files\Unity\Editor\Data\PlaybackEngines\MetroSupport/Tools/UnityEngine.ScreenCaptureModule.dll"
+-r:"C:\Program Files\Unity\Editor\Data\PlaybackEngines\MetroSupport/Tools/UnityEngine.SpriteMaskModule.dll"
+-r:"C:\Program Files\Unity\Editor\Data\PlaybackEngines\MetroSupport/Tools/UnityEngine.TerrainModule.dll"
+-r:"C:\Program Files\Unity\Editor\Data\PlaybackEngines\MetroSupport/Tools/UnityEngine.TilemapModule.dll"
+-r:"C:\Program Files\Unity\Editor\Data\PlaybackEngines\MetroSupport/Tools/UnityEngine.VideoModule.dll"
+-r:"C:\Program Files\Unity\Editor\Data\PlaybackEngines\MetroSupport/Tools/UnityEngine.WindModule.dll"
+-r:"C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll"
+-r:"C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/Networking/UnityEngine.Networking.dll"
+-r:"C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/TestRunner/UnityEngine.TestRunner.dll"
+-r:"C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/TestRunner/net35/unity-custom/nunit.framework.dll"
+-r:"C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/Timeline/RuntimeEditor/UnityEngine.Timeline.dll"
+-r:"C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/UIAutomation/UnityEngine.UIAutomation.dll"
+-r:"C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/UnityGoogleAudioSpatializer/RuntimeEditor/UnityEngine.GoogleAudioSpatializer.dll"
+-r:"C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/UnityHoloLens/RuntimeEditor/UnityEngine.HoloLens.dll"
+-r:"C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/UnitySpatialTracking/RuntimeEditor/UnityEngine.SpatialTracking.dll"
+-r:Assets/HoloToolkit/Utilities/Scripts/GLTF/Plugins/JsonNet/Newtonsoft.Json.dll
+-r:C:/Users/Nischita/AppData/LocalLow/Unity/cache/packages/packages.unity.com/com.unity.analytics@1.0.1/UnityEngine.Analytics.dll
+-r:C:/Users/Nischita/AppData/LocalLow/Unity/cache/packages/packages.unity.com/com.unity.purchasing@1.0.1/UnityEngine.Purchasing.dll
+-define:UNITY_5_3_OR_NEWER
+-define:UNITY_5_4_OR_NEWER
+-define:UNITY_5_5_OR_NEWER
+-define:UNITY_5_6_OR_NEWER
+-define:UNITY_2017_1_OR_NEWER
+-define:UNITY_2017_2_OR_NEWER
+-define:UNITY_2017_2_1
+-define:UNITY_2017_2
+-define:UNITY_2017
+-define:UNITY_ANALYTICS
+-define:ENABLE_AUDIO
+-define:ENABLE_CACHING
+-define:ENABLE_CLOTH
+-define:ENABLE_GENERICS
+-define:ENABLE_PVR_GI
+-define:ENABLE_MICROPHONE
+-define:ENABLE_MULTIPLE_DISPLAYS
+-define:ENABLE_PHYSICS
+-define:ENABLE_SPRITERENDERER_FLIPPING
+-define:ENABLE_SPRITES
+-define:ENABLE_GRID
+-define:ENABLE_TILEMAP
+-define:ENABLE_TERRAIN
+-define:ENABLE_DIRECTOR
+-define:ENABLE_UNET
+-define:ENABLE_LZMA
+-define:ENABLE_UNITYEVENTS
+-define:ENABLE_WEBCAM
+-define:ENABLE_WWW
+-define:ENABLE_CLOUD_SERVICES_COLLAB
+-define:ENABLE_CLOUD_SERVICES_COLLAB_SOFTLOCKS
+-define:ENABLE_CLOUD_HUB
+-define:ENABLE_CLOUD_PROJECT_ID
+-define:ENABLE_CLOUD_SERVICES_USE_WEBREQUEST
+-define:ENABLE_CLOUD_SERVICES_UNET
+-define:ENABLE_CLOUD_SERVICES_BUILD
+-define:ENABLE_CLOUD_LICENSE
+-define:ENABLE_EDITOR_HUB
+-define:ENABLE_EDITOR_HUB_LICENSE
+-define:ENABLE_WEBSOCKET_CLIENT
+-define:ENABLE_DIRECTOR_AUDIO
+-define:ENABLE_TIMELINE
+-define:ENABLE_EDITOR_METRICS
+-define:ENABLE_EDITOR_METRICS_CACHING
+-define:ENABLE_NATIVE_ARRAY
+-define:ENABLE_SPRITE_MASKING
+-define:INCLUDE_DYNAMIC_GI
+-define:INCLUDE_GI
+-define:ENABLE_MONO_BDWGC
+-define:RENDER_SOFTWARE_CURSOR
+-define:INCLUDE_PUBNUB
+-define:ENABLE_PLAYMODE_TESTS_RUNNER
+-define:ENABLE_VIDEO
+-define:ENABLE_RMGUI
+-define:ENABLE_PACKMAN
+-define:ENABLE_CUSTOM_RENDER_TEXTURE
+-define:ENABLE_STYLE_SHEETS
+-define:PLATFORM_METRO
+-define:UNITY_METRO
+-define:UNITY_METRO_API
+-define:PLATFORM_WINRT
+-define:UNITY_WINRT
+-define:ENABLE_WINRT_PINVOKE
+-define:ENABLE_LAZY_METHOD_CACHING
+-define:ENABLE_MOVIES
+-define:ENABLE_CRUNCH_TEXTURE_COMPRESSION
+-define:ENABLE_NETWORK
+-define:ENABLE_EVENT_QUEUE
+-define:UNITY_PLATFORM_THREAD_TO_CORE_MAPPING
+-define:ENABLE_SUBSTANCE
+-define:PLATFORM_SUPPORTS_ADS_ID
+-define:ENABLE_UNITYWEBREQUEST
+-define:ENABLE_CLOUD_SERVICES
+-define:ENABLE_CLOUD_SERVICES_ADS
+-define:ENABLE_CLOUD_SERVICES_ANALYTICS
+-define:ENABLE_CLOUD_SERVICES_PURCHASING
+-define:ENABLE_CLOUD_SERVICES_CRASH_REPORTING
+-define:CURL_STATICLIB
+-define:ENABLE_VR
+-define:ENABLE_AR
+-define:ENABLE_SPATIALTRACKING
+-define:UNITY_WSA
+-define:ENABLE_DOTNET
+-define:ENABLE_PROFILER
+-define:UNITY_WSA_10_0
+-define:UNITY_WINRT_10_0
+-define:DEBUG
+-define:TRACE
+-define:UNITY_ASSERTIONS
+-define:UNITY_EDITOR
+-define:UNITY_EDITOR_64
+-define:UNITY_EDITOR_WIN
+-define:ENABLE_NATIVE_ARRAY_CHECKS
+-define:UNITY_TEAM_LICENSE
+-define:ENABLE_VSTU
+-define:UNITY_PRO_LICENSE
+Assets/ColorandDictationManipulation.cs
+Assets/HoloToolkit/Boundary/Scripts/BoundaryManager.cs
+Assets/HoloToolkit/Input/Scripts/Cursor/AnimatedCursor.cs
+Assets/HoloToolkit/Input/Scripts/Cursor/AnimatorParameter.cs
+Assets/HoloToolkit/Input/Scripts/Cursor/AnimCursorDatum.cs
+Assets/HoloToolkit/Input/Scripts/Cursor/Cursor.cs
+Assets/HoloToolkit/Input/Scripts/Cursor/CursorModifier.cs
+Assets/HoloToolkit/Input/Scripts/Cursor/CursorStateEnum.cs
+Assets/HoloToolkit/Input/Scripts/Cursor/ICursor.cs
+Assets/HoloToolkit/Input/Scripts/Cursor/ICursorModifier.cs
+Assets/HoloToolkit/Input/Scripts/Cursor/InteractiveMeshCursor.cs
+Assets/HoloToolkit/Input/Scripts/Cursor/MeshCursor.cs
+Assets/HoloToolkit/Input/Scripts/Cursor/ObjectCursor.cs
+Assets/HoloToolkit/Input/Scripts/Cursor/SpriteCursor.cs
+Assets/HoloToolkit/Input/Scripts/Focus/FocusDetails.cs
+Assets/HoloToolkit/Input/Scripts/Focus/FocusManager.cs
+Assets/HoloToolkit/Input/Scripts/Focus/InputSourcePointer.cs
+Assets/HoloToolkit/Input/Scripts/Focus/IPointingSource.cs
+Assets/HoloToolkit/Input/Scripts/Focus/RegisterPointableCanvas.cs
+Assets/HoloToolkit/Input/Scripts/Focus/SimpleSinglePointerSelector.cs
+Assets/HoloToolkit/Input/Scripts/GamePad/XboxController/XboxControllerData.cs
+Assets/HoloToolkit/Input/Scripts/GamePad/XboxController/XboxControllerHandlerBase.cs
+Assets/HoloToolkit/Input/Scripts/GamePad/XboxController/XboxControllerMapping.cs
+Assets/HoloToolkit/Input/Scripts/GamePad/XboxController/XboxControllerMappingTypes.cs
+Assets/HoloToolkit/Input/Scripts/Gaze/BaseRayStabilizer.cs
+Assets/HoloToolkit/Input/Scripts/Gaze/GazeManager.cs
+Assets/HoloToolkit/Input/Scripts/Gaze/GazeStabilizer.cs
+Assets/HoloToolkit/Input/Scripts/InputEventData/BaseInputEventData.cs
+Assets/HoloToolkit/Input/Scripts/InputEventData/DictationEventData.cs
+Assets/HoloToolkit/Input/Scripts/InputEventData/GamePadEventData.cs
+Assets/HoloToolkit/Input/Scripts/InputEventData/HoldEventData.cs
+Assets/HoloToolkit/Input/Scripts/InputEventData/InputClickedEventData.cs
+Assets/HoloToolkit/Input/Scripts/InputEventData/InputEventData.cs
+Assets/HoloToolkit/Input/Scripts/InputEventData/InputPositionEventData.cs
+Assets/HoloToolkit/Input/Scripts/InputEventData/ManipulationEventData.cs
+Assets/HoloToolkit/Input/Scripts/InputEventData/NavigationEventData.cs
+Assets/HoloToolkit/Input/Scripts/InputEventData/PointerInputEventData.cs
+Assets/HoloToolkit/Input/Scripts/InputEventData/PointerSpecificEventData.cs
+Assets/HoloToolkit/Input/Scripts/InputEventData/SelectPressedEventData.cs
+Assets/HoloToolkit/Input/Scripts/InputEventData/SourcePositionEventData.cs
+Assets/HoloToolkit/Input/Scripts/InputEventData/SourceRotationEventData.cs
+Assets/HoloToolkit/Input/Scripts/InputEventData/SourceStateEventData.cs
+Assets/HoloToolkit/Input/Scripts/InputEventData/SpeechEventData.cs
+Assets/HoloToolkit/Input/Scripts/InputEventData/XboxControllerEventData.cs
+Assets/HoloToolkit/Input/Scripts/InputHandlers/IControllerInputHandler.cs
+Assets/HoloToolkit/Input/Scripts/InputHandlers/IControllerTouchpadHandler.cs
+Assets/HoloToolkit/Input/Scripts/InputHandlers/IDictationHandler.cs
+Assets/HoloToolkit/Input/Scripts/InputHandlers/IFocusable.cs
+Assets/HoloToolkit/Input/Scripts/InputHandlers/IGamePadHandler.cs
+Assets/HoloToolkit/Input/Scripts/InputHandlers/IHoldHandler.cs
+Assets/HoloToolkit/Input/Scripts/InputHandlers/IInputClickHandler.cs
+Assets/HoloToolkit/Input/Scripts/InputHandlers/IInputHandler.cs
+Assets/HoloToolkit/Input/Scripts/InputHandlers/IManipulationHandler.cs
+Assets/HoloToolkit/Input/Scripts/InputHandlers/INavigationHandler.cs
+Assets/HoloToolkit/Input/Scripts/InputHandlers/IPointerSpecificFocusable.cs
+Assets/HoloToolkit/Input/Scripts/InputHandlers/ISelectHandler.cs
+Assets/HoloToolkit/Input/Scripts/InputHandlers/ISourcePositionHandler.cs
+Assets/HoloToolkit/Input/Scripts/InputHandlers/ISourceRotationHandler.cs
+Assets/HoloToolkit/Input/Scripts/InputHandlers/ISourceStateHandler.cs
+Assets/HoloToolkit/Input/Scripts/InputHandlers/ISpeechHandler.cs
+Assets/HoloToolkit/Input/Scripts/InputHandlers/IXboxControllerHandler.cs
+Assets/HoloToolkit/Input/Scripts/InputSources/BaseInputSource.cs
+Assets/HoloToolkit/Input/Scripts/InputSources/CustomInputSource.cs
+Assets/HoloToolkit/Input/Scripts/InputSources/DictationInputManager.cs
+Assets/HoloToolkit/Input/Scripts/InputSources/GamepadInput.cs
+Assets/HoloToolkit/Input/Scripts/InputSources/GamePadInputSource.cs
+Assets/HoloToolkit/Input/Scripts/InputSources/IInputSource.cs
+Assets/HoloToolkit/Input/Scripts/InputSources/IInputSourceInfoProvider.cs
+Assets/HoloToolkit/Input/Scripts/InputSources/InputSourceInfo.cs
+Assets/HoloToolkit/Input/Scripts/InputSources/InteractionInputSource.cs
+Assets/HoloToolkit/Input/Scripts/InputSources/InteractionSourceInfo.cs
+Assets/HoloToolkit/Input/Scripts/InputSources/InteractionSourcePressInfo.cs
+Assets/HoloToolkit/Input/Scripts/InputSources/RawInteractionInputSource.cs
+Assets/HoloToolkit/Input/Scripts/InputSources/SpeechInputSource.cs
+Assets/HoloToolkit/Input/Scripts/InputSources/SupportedInputInfo.cs
+Assets/HoloToolkit/Input/Scripts/InputSources/XboxControllerInputSource.cs
+Assets/HoloToolkit/Input/Scripts/Utilities/AxisController.cs
+Assets/HoloToolkit/Input/Scripts/Utilities/ButtonController.cs
+Assets/HoloToolkit/Input/Scripts/Utilities/Extensions/InteractionSourceExtensions.cs
+Assets/HoloToolkit/Input/Scripts/Utilities/Interactions/CustomInputControl.cs
+Assets/HoloToolkit/Input/Scripts/Utilities/Interactions/CustomInputSelector.cs
+Assets/HoloToolkit/Input/Scripts/Utilities/Interactions/DebugInteractionSourcePose.cs
+Assets/HoloToolkit/Input/Scripts/Utilities/Interactions/DebugInteractionSourceState.cs
+Assets/HoloToolkit/Input/Scripts/Utilities/Interactions/HandDraggable.cs
+Assets/HoloToolkit/Input/Scripts/Utilities/Interactions/ManualGazeControl.cs
+Assets/HoloToolkit/Input/Scripts/Utilities/Interactions/SpeechInputHandler.cs
+Assets/HoloToolkit/Input/Scripts/Utilities/Interactions/TapToPlace.cs
+Assets/HoloToolkit/Input/Scripts/Utilities/Interactions/TriggerButton.cs
+Assets/HoloToolkit/Input/Scripts/Utilities/KeywordAndKeyCode.cs
+Assets/HoloToolkit/Input/Scripts/Utilities/Managers/HandGuidance.cs
+Assets/HoloToolkit/Input/Scripts/Utilities/Managers/InputManager.cs
+Assets/HoloToolkit/Input/Scripts/Utilities/Managers/KeyboardManager.cs
+Assets/HoloToolkit/Input/Scripts/Utilities/Managers/MixedRealityCameraManager.cs
+Assets/HoloToolkit/Input/Scripts/Utilities/Managers/MixedRealityTeleport.cs
+Assets/HoloToolkit/Input/Scripts/Utilities/MotionControllerInfo.cs
+Assets/HoloToolkit/Input/Scripts/Utilities/MotionControllerVisualizer.cs
+Assets/HoloToolkit/Input/Scripts/Utilities/SetGlobalListener.cs
+Assets/HoloToolkit/Sharing/Scripts/Extensions/SessionExtensions.cs
+Assets/HoloToolkit/Sharing/Scripts/SDK/AnchorDownloadRequest.cs
+Assets/HoloToolkit/Sharing/Scripts/SDK/AudioManager.cs
+Assets/HoloToolkit/Sharing/Scripts/SDK/BoolElement.cs
+Assets/HoloToolkit/Sharing/Scripts/SDK/ClientConfig.cs
+Assets/HoloToolkit/Sharing/Scripts/SDK/ClientRole.cs
+Assets/HoloToolkit/Sharing/Scripts/SDK/DirectPairConnector.cs
+Assets/HoloToolkit/Sharing/Scripts/SDK/DirectPairReceiver.cs
+Assets/HoloToolkit/Sharing/Scripts/SDK/DiscoveredSystem.cs
+Assets/HoloToolkit/Sharing/Scripts/SDK/DiscoveryClient.cs
+Assets/HoloToolkit/Sharing/Scripts/SDK/DiscoveryClientAdapter.cs
+Assets/HoloToolkit/Sharing/Scripts/SDK/DiscoveryClientListener.cs
+Assets/HoloToolkit/Sharing/Scripts/SDK/DoubleElement.cs
+Assets/HoloToolkit/Sharing/Scripts/SDK/Element.cs
+Assets/HoloToolkit/Sharing/Scripts/SDK/ElementType.cs
+Assets/HoloToolkit/Sharing/Scripts/SDK/FloatArrayElement.cs
+Assets/HoloToolkit/Sharing/Scripts/SDK/FloatArrayListener.cs
+Assets/HoloToolkit/Sharing/Scripts/SDK/FloatElement.cs
+Assets/HoloToolkit/Sharing/Scripts/SDK/IntArrayElement.cs
+Assets/HoloToolkit/Sharing/Scripts/SDK/IntArrayListener.cs
+Assets/HoloToolkit/Sharing/Scripts/SDK/IntElement.cs
+Assets/HoloToolkit/Sharing/Scripts/SDK/Listener.cs
+Assets/HoloToolkit/Sharing/Scripts/SDK/Log.cs
+Assets/HoloToolkit/Sharing/Scripts/SDK/LogManager.cs
+Assets/HoloToolkit/Sharing/Scripts/SDK/LogSeverity.cs
+Assets/HoloToolkit/Sharing/Scripts/SDK/LogWriter.cs
+Assets/HoloToolkit/Sharing/Scripts/SDK/LongElement.cs
+Assets/HoloToolkit/Sharing/Scripts/SDK/MachineSessionState.cs
+Assets/HoloToolkit/Sharing/Scripts/SDK/MessageChannel.cs
+Assets/HoloToolkit/Sharing/Scripts/SDK/MessageID.cs
+Assets/HoloToolkit/Sharing/Scripts/SDK/MessagePriority.cs
+Assets/HoloToolkit/Sharing/Scripts/SDK/MessageReliability.cs
+Assets/HoloToolkit/Sharing/Scripts/SDK/NetworkConnection.cs
+Assets/HoloToolkit/Sharing/Scripts/SDK/NetworkConnectionAdapter.cs
+Assets/HoloToolkit/Sharing/Scripts/SDK/NetworkConnectionListener.cs
+Assets/HoloToolkit/Sharing/Scripts/SDK/NetworkInMessage.cs
+Assets/HoloToolkit/Sharing/Scripts/SDK/NetworkOutMessage.cs
+Assets/HoloToolkit/Sharing/Scripts/SDK/ObjectElement.cs
+Assets/HoloToolkit/Sharing/Scripts/SDK/ObjectElementAdapter.cs
+Assets/HoloToolkit/Sharing/Scripts/SDK/ObjectElementListener.cs
+Assets/HoloToolkit/Sharing/Scripts/SDK/PairingAdapter.cs
+Assets/HoloToolkit/Sharing/Scripts/SDK/PairingListener.cs
+Assets/HoloToolkit/Sharing/Scripts/SDK/PairingManager.cs
+Assets/HoloToolkit/Sharing/Scripts/SDK/PairingResult.cs
+Assets/HoloToolkit/Sharing/Scripts/SDK/PairMaker.cs
+Assets/HoloToolkit/Sharing/Scripts/SDK/Profile.cs
+Assets/HoloToolkit/Sharing/Scripts/SDK/ProfileManager.cs
+Assets/HoloToolkit/Sharing/Scripts/SDK/Receipt.cs
+Assets/HoloToolkit/Sharing/Scripts/SDK/Room.cs
+Assets/HoloToolkit/Sharing/Scripts/SDK/RoomManager.cs
+Assets/HoloToolkit/Sharing/Scripts/SDK/RoomManagerAdapter.cs
+Assets/HoloToolkit/Sharing/Scripts/SDK/RoomManagerListener.cs
+Assets/HoloToolkit/Sharing/Scripts/SDK/Session.cs
+Assets/HoloToolkit/Sharing/Scripts/SDK/SessionListener.cs
+Assets/HoloToolkit/Sharing/Scripts/SDK/SessionManager.cs
+Assets/HoloToolkit/Sharing/Scripts/SDK/SessionManagerAdapter.cs
+Assets/HoloToolkit/Sharing/Scripts/SDK/SessionManagerListener.cs
+Assets/HoloToolkit/Sharing/Scripts/SDK/SessionType.cs
+Assets/HoloToolkit/Sharing/Scripts/SDK/Settings.cs
+Assets/HoloToolkit/Sharing/Scripts/SDK/SharingClient.cs
+Assets/HoloToolkit/Sharing/Scripts/SDK/SharingClientPINVOKE.cs
+Assets/HoloToolkit/Sharing/Scripts/SDK/SharingManager.cs
+Assets/HoloToolkit/Sharing/Scripts/SDK/StringArrayElement.cs
+Assets/HoloToolkit/Sharing/Scripts/SDK/StringArrayListener.cs
+Assets/HoloToolkit/Sharing/Scripts/SDK/StringElement.cs
+Assets/HoloToolkit/Sharing/Scripts/SDK/SyncListener.cs
+Assets/HoloToolkit/Sharing/Scripts/SDK/SystemRole.cs
+Assets/HoloToolkit/Sharing/Scripts/SDK/TagImage.cs
+Assets/HoloToolkit/Sharing/Scripts/SDK/User.cs
+Assets/HoloToolkit/Sharing/Scripts/SDK/UserPresenceManager.cs
+Assets/HoloToolkit/Sharing/Scripts/SDK/UserPresenceManagerAdapter.cs
+Assets/HoloToolkit/Sharing/Scripts/SDK/UserPresenceManagerListener.cs
+Assets/HoloToolkit/Sharing/Scripts/SDK/VisualPairConnector.cs
+Assets/HoloToolkit/Sharing/Scripts/SDK/VisualPairReceiver.cs
+Assets/HoloToolkit/Sharing/Scripts/SDK/XString.cs
+Assets/HoloToolkit/Sharing/Scripts/ServerSessionsTracker.cs
+Assets/HoloToolkit/Sharing/Scripts/SessionUsersTracker.cs
+Assets/HoloToolkit/Sharing/Scripts/SharingStage.cs
+Assets/HoloToolkit/Sharing/Scripts/Spawning/PrefabSpawnManager.cs
+Assets/HoloToolkit/Sharing/Scripts/Spawning/SpawnManager.cs
+Assets/HoloToolkit/Sharing/Scripts/Spawning/SyncSpawnArray.cs
+Assets/HoloToolkit/Sharing/Scripts/Spawning/SyncSpawnedObject.cs
+Assets/HoloToolkit/Sharing/Scripts/SyncModel/SyncArray.cs
+Assets/HoloToolkit/Sharing/Scripts/SyncModel/SyncBool.cs
+Assets/HoloToolkit/Sharing/Scripts/SyncModel/SyncDataAttributes.cs
+Assets/HoloToolkit/Sharing/Scripts/SyncModel/SyncDouble.cs
+Assets/HoloToolkit/Sharing/Scripts/SyncModel/SyncFloat.cs
+Assets/HoloToolkit/Sharing/Scripts/SyncModel/SyncInteger.cs
+Assets/HoloToolkit/Sharing/Scripts/SyncModel/SyncLong.cs
+Assets/HoloToolkit/Sharing/Scripts/SyncModel/SyncObject.cs
+Assets/HoloToolkit/Sharing/Scripts/SyncModel/SyncPrimitive.cs
+Assets/HoloToolkit/Sharing/Scripts/SyncModel/SyncQuaternion.cs
+Assets/HoloToolkit/Sharing/Scripts/SyncModel/SyncString.cs
+Assets/HoloToolkit/Sharing/Scripts/SyncModel/SyncTransform.cs
+Assets/HoloToolkit/Sharing/Scripts/SyncModel/SyncVector3.cs
+Assets/HoloToolkit/Sharing/Scripts/SyncRoot.cs
+Assets/HoloToolkit/Sharing/Scripts/SyncSettings.cs
+Assets/HoloToolkit/Sharing/Scripts/SyncStateListener.cs
+Assets/HoloToolkit/Sharing/Scripts/Unity/DefaultSyncModelAccessor.cs
+Assets/HoloToolkit/Sharing/Scripts/Unity/ISyncModelAccessor.cs
+Assets/HoloToolkit/Sharing/Scripts/Unity/TransformSynchronizer.cs
+Assets/HoloToolkit/Sharing/Scripts/Utilities/AutoJoinSessionAndRoom.cs
+Assets/HoloToolkit/Sharing/Scripts/Utilities/ConsoleLogWriter.cs
+Assets/HoloToolkit/Sharing/Scripts/Utilities/DirectPairing.cs
+Assets/HoloToolkit/Sharing/Scripts/Utilities/ManualIpConfiguration.cs
+Assets/HoloToolkit/Sharing/Scripts/Utilities/SharingWorldAnchorManager.cs
+Assets/HoloToolkit/SharingWithUNET/Scripts/BulletController.cs
+Assets/HoloToolkit/SharingWithUNET/Scripts/GenericNetworkTransmitter.cs
+Assets/HoloToolkit/SharingWithUNET/Scripts/NetworkDiscoveryWithAnchors.cs
+Assets/HoloToolkit/SharingWithUNET/Scripts/PlayerController.cs
+Assets/HoloToolkit/SharingWithUNET/Scripts/SharedAnchorDebugText.cs
+Assets/HoloToolkit/SharingWithUNET/Scripts/SharedCollection.cs
+Assets/HoloToolkit/SharingWithUNET/Scripts/UNetAnchorManager.cs
+Assets/HoloToolkit/SharingWithUNET/Scripts/UNetSharedHologram.cs
+Assets/HoloToolkit/SharingWithUNET/UI/Scripts/JoinSelectedSessionButton.cs
+Assets/HoloToolkit/SharingWithUNET/UI/Scripts/PositionDebugButton.cs
+Assets/HoloToolkit/SharingWithUNET/UI/Scripts/ResetAnchorButton.cs
+Assets/HoloToolkit/SharingWithUNET/UI/Scripts/ScrollingSessionListUIController.cs
+Assets/HoloToolkit/SharingWithUNET/UI/Scripts/ScrollSessionListButton.cs
+Assets/HoloToolkit/SharingWithUNET/UI/Scripts/SessionListButton.cs
+Assets/HoloToolkit/SharingWithUNET/UI/Scripts/StartSessionButton.cs
+Assets/HoloToolkit/SpatialMapping/Scripts/ObjectSurfaceObserver.cs
+Assets/HoloToolkit/SpatialMapping/Scripts/RemoteMapping/FileSurfaceObserver.cs
+Assets/HoloToolkit/SpatialMapping/Scripts/RemoteMapping/MeshSaver.cs
+Assets/HoloToolkit/SpatialMapping/Scripts/RemoteMapping/RemoteMappingManager.cs
+Assets/HoloToolkit/SpatialMapping/Scripts/RemoteMapping/RemoteMeshSource.cs
+Assets/HoloToolkit/SpatialMapping/Scripts/RemoteMapping/RemoteMeshTarget.cs
+Assets/HoloToolkit/SpatialMapping/Scripts/RemoteMapping/SimpleMeshSerializer.cs
+Assets/HoloToolkit/SpatialMapping/Scripts/SpatialMappingManager.cs
+Assets/HoloToolkit/SpatialMapping/Scripts/SpatialMappingObserver.cs
+Assets/HoloToolkit/SpatialMapping/Scripts/SpatialMappingSource.cs
+Assets/HoloToolkit/SpatialMapping/Scripts/SpatialProcessing/PlaneFinding.cs
+Assets/HoloToolkit/SpatialMapping/Scripts/SpatialProcessing/RemoveSurfaceVertices.cs
+Assets/HoloToolkit/SpatialMapping/Scripts/SpatialProcessing/SurfaceMeshesToPlanes.cs
+Assets/HoloToolkit/SpatialMapping/Scripts/SpatialProcessing/SurfacePlane.cs
+Assets/HoloToolkit/SpatialSound/Scripts/AudioEmitter.cs
+Assets/HoloToolkit/SpatialSound/Scripts/AudioOccluder.cs
+Assets/HoloToolkit/SpatialSound/Scripts/IAudioInfluencer.cs
+Assets/HoloToolkit/SpatialSound/Scripts/UAudioManager/ActiveEvent.cs
+Assets/HoloToolkit/SpatialSound/Scripts/UAudioManager/AudioClip.cs
+Assets/HoloToolkit/SpatialSound/Scripts/UAudioManager/AudioContainer.cs
+Assets/HoloToolkit/SpatialSound/Scripts/UAudioManager/AudioEvent.cs
+Assets/HoloToolkit/SpatialSound/Scripts/UAudioManager/AudioSourcePlayClipExtension.cs
+Assets/HoloToolkit/SpatialSound/Scripts/UAudioManager/AudioSourcesReference.cs
+Assets/HoloToolkit/SpatialSound/Scripts/UAudioManager/MiniAudioEvent.cs
+Assets/HoloToolkit/SpatialSound/Scripts/UAudioManager/SpatialSoundSettings.cs
+Assets/HoloToolkit/SpatialSound/Scripts/UAudioManager/UAudioManager.cs
+Assets/HoloToolkit/SpatialSound/Scripts/UAudioManager/UAudioManagerBase.cs
+Assets/HoloToolkit/SpatialSound/Scripts/UAudioManager/UAudioMiniManager.cs
+Assets/HoloToolkit/SpatialUnderstanding/Scripts/SpatialUnderstanding.cs
+Assets/HoloToolkit/SpatialUnderstanding/Scripts/SpatialUnderstandingCustomMesh.cs
+Assets/HoloToolkit/SpatialUnderstanding/Scripts/SpatialUnderstandingDll.cs
+Assets/HoloToolkit/SpatialUnderstanding/Scripts/SpatialUnderstandingDllObjectPlacement.cs
+Assets/HoloToolkit/SpatialUnderstanding/Scripts/SpatialUnderstandingDllShapes.cs
+Assets/HoloToolkit/SpatialUnderstanding/Scripts/SpatialUnderstandingDllTopology.cs
+Assets/HoloToolkit/SpatialUnderstanding/Scripts/SpatialUnderstandingSourceMesh.cs
+Assets/HoloToolkit/Utilities/Scripts/AdaptiveQuality/AdaptiveQuality.cs
+Assets/HoloToolkit/Utilities/Scripts/AdaptiveQuality/AdaptiveViewport.cs
+Assets/HoloToolkit/Utilities/Scripts/ApplicationViewManager.cs
+Assets/HoloToolkit/Utilities/Scripts/Attributes/OpenLocalFileAttribute.cs
+Assets/HoloToolkit/Utilities/Scripts/Attributes/OpenLocalFolderAttribute.cs
+Assets/HoloToolkit/Utilities/Scripts/Attributes/SaveLocalFileAttribute.cs
+Assets/HoloToolkit/Utilities/Scripts/Billboard.cs
+Assets/HoloToolkit/Utilities/Scripts/BitManipulator.cs
+Assets/HoloToolkit/Utilities/Scripts/CameraCache.cs
+Assets/HoloToolkit/Utilities/Scripts/CircularBuffer.cs
+Assets/HoloToolkit/Utilities/Scripts/CrossPlatform/MetroHandleRef.cs
+Assets/HoloToolkit/Utilities/Scripts/CrossPlatform/Reflection/ReflectionExtensions.cs
+Assets/HoloToolkit/Utilities/Scripts/CrossPlatform/Reflection/TypeUtils.cs
+Assets/HoloToolkit/Utilities/Scripts/CrossPlatform/SystemException.cs
+Assets/HoloToolkit/Utilities/Scripts/DataEventArgs.cs
+Assets/HoloToolkit/Utilities/Scripts/DebugPanel.cs
+Assets/HoloToolkit/Utilities/Scripts/DebugPanelControllerInfo.cs
+Assets/HoloToolkit/Utilities/Scripts/DebugPanelFPSCounter.cs
+Assets/HoloToolkit/Utilities/Scripts/DirectionIndicator.cs
+Assets/HoloToolkit/Utilities/Scripts/DisplayDependentObjectActivator.cs
+Assets/HoloToolkit/Utilities/Scripts/Extensions/ActionExtensions.cs
+Assets/HoloToolkit/Utilities/Scripts/Extensions/CameraExtensions.cs
+Assets/HoloToolkit/Utilities/Scripts/Extensions/Color32Extensions.cs
+Assets/HoloToolkit/Utilities/Scripts/Extensions/ComponentExtensions.cs
+Assets/HoloToolkit/Utilities/Scripts/Extensions/EnumerableExtensions.cs
+Assets/HoloToolkit/Utilities/Scripts/Extensions/EventSystemExtensions.cs
+Assets/HoloToolkit/Utilities/Scripts/Extensions/Extensions.cs
+Assets/HoloToolkit/Utilities/Scripts/Extensions/GameObjectExtensions.cs
+Assets/HoloToolkit/Utilities/Scripts/Extensions/LayerExtensions.cs
+Assets/HoloToolkit/Utilities/Scripts/Extensions/MathfExtensions.cs
+Assets/HoloToolkit/Utilities/Scripts/Extensions/TransformExtensions.cs
+Assets/HoloToolkit/Utilities/Scripts/Extensions/VectorExtensions.cs
+Assets/HoloToolkit/Utilities/Scripts/FadeScript.cs
+Assets/HoloToolkit/Utilities/Scripts/FileSystemHelper.cs
+Assets/HoloToolkit/Utilities/Scripts/FixedAngularSize.cs
+Assets/HoloToolkit/Utilities/Scripts/FpsDisplay.cs
+Assets/HoloToolkit/Utilities/Scripts/GLTF/Scripts/AsyncAction.cs
+Assets/HoloToolkit/Utilities/Scripts/GLTF/Scripts/Exceptions.cs
+Assets/HoloToolkit/Utilities/Scripts/GLTF/Scripts/GLTFComponent.cs
+Assets/HoloToolkit/Utilities/Scripts/GLTF/Scripts/GLTFJsonExtensions.cs
+Assets/HoloToolkit/Utilities/Scripts/GLTF/Scripts/GLTFLoader.cs
+Assets/HoloToolkit/Utilities/Scripts/GLTF/Scripts/GLTFParser.cs
+Assets/HoloToolkit/Utilities/Scripts/GLTF/Scripts/Schema/Accessor.cs
+Assets/HoloToolkit/Utilities/Scripts/GLTF/Scripts/Schema/AccessorSparse.cs
+Assets/HoloToolkit/Utilities/Scripts/GLTF/Scripts/Schema/AccessorSparseIndices.cs
+Assets/HoloToolkit/Utilities/Scripts/GLTF/Scripts/Schema/AccessorSparseValues.cs
+Assets/HoloToolkit/Utilities/Scripts/GLTF/Scripts/Schema/AnimationChannel.cs
+Assets/HoloToolkit/Utilities/Scripts/GLTF/Scripts/Schema/AnimationChannelTarget.cs
+Assets/HoloToolkit/Utilities/Scripts/GLTF/Scripts/Schema/AnimationSampler.cs
+Assets/HoloToolkit/Utilities/Scripts/GLTF/Scripts/Schema/Asset.cs
+Assets/HoloToolkit/Utilities/Scripts/GLTF/Scripts/Schema/Buffer.cs
+Assets/HoloToolkit/Utilities/Scripts/GLTF/Scripts/Schema/BufferView.cs
+Assets/HoloToolkit/Utilities/Scripts/GLTF/Scripts/Schema/CameraOrthographic.cs
+Assets/HoloToolkit/Utilities/Scripts/GLTF/Scripts/Schema/CameraPerspective.cs
+Assets/HoloToolkit/Utilities/Scripts/GLTF/Scripts/Schema/Extension.cs
+Assets/HoloToolkit/Utilities/Scripts/GLTF/Scripts/Schema/GLTFAnimation.cs
+Assets/HoloToolkit/Utilities/Scripts/GLTF/Scripts/Schema/GLTFCamera.cs
+Assets/HoloToolkit/Utilities/Scripts/GLTF/Scripts/Schema/GLTFChildOfRootProperty.cs
+Assets/HoloToolkit/Utilities/Scripts/GLTF/Scripts/Schema/GLTFId.cs
+Assets/HoloToolkit/Utilities/Scripts/GLTF/Scripts/Schema/GLTFProperty.cs
+Assets/HoloToolkit/Utilities/Scripts/GLTF/Scripts/Schema/GLTFRoot.cs
+Assets/HoloToolkit/Utilities/Scripts/GLTF/Scripts/Schema/Image.cs
+Assets/HoloToolkit/Utilities/Scripts/GLTF/Scripts/Schema/Material.cs
+Assets/HoloToolkit/Utilities/Scripts/GLTF/Scripts/Schema/MaterialCommonConstant.cs
+Assets/HoloToolkit/Utilities/Scripts/GLTF/Scripts/Schema/MaterialNormalTextureInfo.cs
+Assets/HoloToolkit/Utilities/Scripts/GLTF/Scripts/Schema/MaterialOcclusionTextureInfo.cs
+Assets/HoloToolkit/Utilities/Scripts/GLTF/Scripts/Schema/MaterialPBRMetallicRoughness.cs
+Assets/HoloToolkit/Utilities/Scripts/GLTF/Scripts/Schema/Mesh.cs
+Assets/HoloToolkit/Utilities/Scripts/GLTF/Scripts/Schema/MeshPrimitive.cs
+Assets/HoloToolkit/Utilities/Scripts/GLTF/Scripts/Schema/Node.cs
+Assets/HoloToolkit/Utilities/Scripts/GLTF/Scripts/Schema/Sampler.cs
+Assets/HoloToolkit/Utilities/Scripts/GLTF/Scripts/Schema/Scene.cs
+Assets/HoloToolkit/Utilities/Scripts/GLTF/Scripts/Schema/Skin.cs
+Assets/HoloToolkit/Utilities/Scripts/GLTF/Scripts/Schema/Texture.cs
+Assets/HoloToolkit/Utilities/Scripts/GLTF/Scripts/Schema/TextureInfo.cs
+Assets/HoloToolkit/Utilities/Scripts/GLTFComponentStreamingAssets.cs
+Assets/HoloToolkit/Utilities/Scripts/GpuTiming/GpuTiming.cs
+Assets/HoloToolkit/Utilities/Scripts/GpuTiming/GpuTimingCamera.cs
+Assets/HoloToolkit/Utilities/Scripts/HashCodes.cs
+Assets/HoloToolkit/Utilities/Scripts/HeadsetAdjustment.cs
+Assets/HoloToolkit/Utilities/Scripts/HeadsUpDirectionIndicator.cs
+Assets/HoloToolkit/Utilities/Scripts/Int3.cs
+Assets/HoloToolkit/Utilities/Scripts/InterpolatedValues/InterpolatedColor.cs
+Assets/HoloToolkit/Utilities/Scripts/InterpolatedValues/InterpolatedFloat.cs
+Assets/HoloToolkit/Utilities/Scripts/InterpolatedValues/InterpolatedQuaternion.cs
+Assets/HoloToolkit/Utilities/Scripts/InterpolatedValues/InterpolatedValue.cs
+Assets/HoloToolkit/Utilities/Scripts/InterpolatedValues/InterpolatedVector2.cs
+Assets/HoloToolkit/Utilities/Scripts/InterpolatedValues/InterpolatedVector3.cs
+Assets/HoloToolkit/Utilities/Scripts/InterpolatedValues/QuaternionInterpolated.cs
+Assets/HoloToolkit/Utilities/Scripts/InterpolatedValues/Vector3Interpolated.cs
+Assets/HoloToolkit/Utilities/Scripts/InterpolationUtilities.cs
+Assets/HoloToolkit/Utilities/Scripts/Interpolator.cs
+Assets/HoloToolkit/Utilities/Scripts/MathUtils.cs
+Assets/HoloToolkit/Utilities/Scripts/NearPlaneFade.cs
+Assets/HoloToolkit/Utilities/Scripts/PriorityQueue.cs
+Assets/HoloToolkit/Utilities/Scripts/PropertyChangedEventArgsEx.cs
+Assets/HoloToolkit/Utilities/Scripts/RaycastResultComparer.cs
+Assets/HoloToolkit/Utilities/Scripts/ReadOnlyHashSet.cs
+Assets/HoloToolkit/Utilities/Scripts/SceneLauncher.cs
+Assets/HoloToolkit/Utilities/Scripts/SceneLauncherButton.cs
+Assets/HoloToolkit/Utilities/Scripts/SimpleTagalong.cs
+Assets/HoloToolkit/Utilities/Scripts/SingleInstance.cs
+Assets/HoloToolkit/Utilities/Scripts/Singleton.cs
+Assets/HoloToolkit/Utilities/Scripts/SphereBasedTagalong.cs
+Assets/HoloToolkit/Utilities/Scripts/StabilizationPlaneModifier.cs
+Assets/HoloToolkit/Utilities/Scripts/StartAwareBehaviour.cs
+Assets/HoloToolkit/Utilities/Scripts/StartAwareSingleton.cs
+Assets/HoloToolkit/Utilities/Scripts/Tagalong.cs
+Assets/HoloToolkit/Utilities/Scripts/TextToSpeech.cs
+Assets/HoloToolkit/Utilities/Scripts/Timer.cs
+Assets/HoloToolkit/Utilities/Scripts/TimerScheduler.cs
+Assets/HoloToolkit/Utilities/Scripts/ToggleDebugWindow.cs
+Assets/HoloToolkit/Utilities/Scripts/Utils.cs
+Assets/HoloToolkit/Utilities/Scripts/VectorRollingStatistics.cs
+Assets/HoloToolkit/Utilities/Scripts/WorldAnchorManager.cs
+Assets/HoloToolkit/Utilities/Shaders/FastConfigurable/Scripts/CalibrationSpace.cs
+Assets/HoloToolkit/UX/Scripts/AxisSlider.cs
+Assets/HoloToolkit/UX/Scripts/CapsLockHighlight.cs
+Assets/HoloToolkit/UX/Scripts/Keyboard.cs
+Assets/HoloToolkit/UX/Scripts/KeyboardInputField.cs
+Assets/HoloToolkit/UX/Scripts/KeyboardKeyFunc.cs
+Assets/HoloToolkit/UX/Scripts/KeyboardValueKey.cs
+Assets/HoloToolkit/UX/Scripts/SliderInputField.cs
+Assets/HoloToolkit/UX/Scripts/SymbolDisableHighlight.cs
+Assets/HoloToolkit/UX/Scripts/SymbolKeyboard.cs
+Assets/HoloToolkit/UX/Scripts/UICollection.cs
+Assets/HoloToolkit/UX/Scripts/UsabilityScaler.cs
+Assets/HoloToolkit/UX/Scripts/UsabilityUtilities.cs
+-r:"C:\Program Files\Unity\Editor\Data\MonoBleedingEdge\lib\mono\2.0-api\System.Runtime.Serialization.dll"
+-r:"C:\Program Files\Unity\Editor\Data\MonoBleedingEdge\lib\mono\2.0-api\System.Xml.Linq.dll"
+-r:"C:\Program Files\Unity\Editor\Data\MonoBleedingEdge\lib\mono\2.0-api\UnityScript.dll"
+-r:"C:\Program Files\Unity\Editor\Data\MonoBleedingEdge\lib\mono\2.0-api\UnityScript.Lang.dll"
+-r:"C:\Program Files\Unity\Editor\Data\MonoBleedingEdge\lib\mono\2.0-api\Boo.Lang.dll"
+-sdk:2.0

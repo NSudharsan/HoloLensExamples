@@ -1,0 +1,4 @@
+sceneSetups:
+- path: Assets/warrior.unity
+  isLoaded: 1
+  isActive: 1

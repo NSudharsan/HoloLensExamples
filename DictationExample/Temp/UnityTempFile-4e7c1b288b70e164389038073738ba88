@@ -1,0 +1,232 @@
+-debug
+-target:library
+-nowarn:0169
+-langversion:4
+-out:Temp/Assembly-CSharp-Editor.dll
+-unsafe
+-r:Library/ScriptAssemblies/Assembly-CSharp.dll
+-r:"C:/Program Files/Unity/Editor/Data/Managed/UnityEditor.dll"
+-r:"C:\Program Files\Unity\Editor\Data\PlaybackEngines\MetroSupport/Tools/UnityEngine.dll"
+-r:"C:\Program Files\Unity\Editor\Data\PlaybackEngines\MetroSupport/Tools/UnityEngine.CoreModule.dll"
+-r:"C:\Program Files\Unity\Editor\Data\PlaybackEngines\MetroSupport/Tools/UnityEngine.AccessibilityModule.dll"
+-r:"C:\Program Files\Unity\Editor\Data\PlaybackEngines\MetroSupport/Tools/UnityEngine.ParticleSystemModule.dll"
+-r:"C:\Program Files\Unity\Editor\Data\PlaybackEngines\MetroSupport/Tools/UnityEngine.PhysicsModule.dll"
+-r:"C:\Program Files\Unity\Editor\Data\PlaybackEngines\MetroSupport/Tools/UnityEngine.VehiclesModule.dll"
+-r:"C:\Program Files\Unity\Editor\Data\PlaybackEngines\MetroSupport/Tools/UnityEngine.ClothModule.dll"
+-r:"C:\Program Files\Unity\Editor\Data\PlaybackEngines\MetroSupport/Tools/UnityEngine.AIModule.dll"
+-r:"C:\Program Files\Unity\Editor\Data\PlaybackEngines\MetroSupport/Tools/UnityEngine.AnimationModule.dll"
+-r:"C:\Program Files\Unity\Editor\Data\PlaybackEngines\MetroSupport/Tools/UnityEngine.TextRenderingModule.dll"
+-r:"C:\Program Files\Unity\Editor\Data\PlaybackEngines\MetroSupport/Tools/UnityEngine.UIModule.dll"
+-r:"C:\Program Files\Unity\Editor\Data\PlaybackEngines\MetroSupport/Tools/UnityEngine.TerrainPhysicsModule.dll"
+-r:"C:\Program Files\Unity\Editor\Data\PlaybackEngines\MetroSupport/Tools/UnityEngine.IMGUIModule.dll"
+-r:"C:\Program Files\Unity\Editor\Data\PlaybackEngines\MetroSupport/Tools/UnityEngine.UnityWebRequestModule.dll"
+-r:"C:\Program Files\Unity\Editor\Data\PlaybackEngines\MetroSupport/Tools/UnityEngine.UnityWebRequestAudioModule.dll"
+-r:"C:\Program Files\Unity\Editor\Data\PlaybackEngines\MetroSupport/Tools/UnityEngine.UnityWebRequestTextureModule.dll"
+-r:"C:\Program Files\Unity\Editor\Data\PlaybackEngines\MetroSupport/Tools/UnityEngine.UnityWebRequestWWWModule.dll"
+-r:"C:\Program Files\Unity\Editor\Data\PlaybackEngines\MetroSupport/Tools/UnityEngine.UNETModule.dll"
+-r:"C:\Program Files\Unity\Editor\Data\PlaybackEngines\MetroSupport/Tools/UnityEngine.DirectorModule.dll"
+-r:"C:\Program Files\Unity\Editor\Data\PlaybackEngines\MetroSupport/Tools/UnityEngine.UnityAnalyticsModule.dll"
+-r:"C:\Program Files\Unity\Editor\Data\PlaybackEngines\MetroSupport/Tools/UnityEngine.CrashReportingModule.dll"
+-r:"C:\Program Files\Unity\Editor\Data\PlaybackEngines\MetroSupport/Tools/UnityEngine.PerformanceReportingModule.dll"
+-r:"C:\Program Files\Unity\Editor\Data\PlaybackEngines\MetroSupport/Tools/UnityEngine.UnityConnectModule.dll"
+-r:"C:\Program Files\Unity\Editor\Data\PlaybackEngines\MetroSupport/Tools/UnityEngine.WebModule.dll"
+-r:"C:\Program Files\Unity\Editor\Data\PlaybackEngines\MetroSupport/Tools/UnityEngine.ARModule.dll"
+-r:"C:\Program Files\Unity\Editor\Data\PlaybackEngines\MetroSupport/Tools/UnityEngine.VRModule.dll"
+-r:"C:\Program Files\Unity\Editor\Data\PlaybackEngines\MetroSupport/Tools/UnityEngine.UIElementsModule.dll"
+-r:"C:\Program Files\Unity\Editor\Data\PlaybackEngines\MetroSupport/Tools/UnityEngine.StyleSheetsModule.dll"
+-r:"C:\Program Files\Unity\Editor\Data\PlaybackEngines\MetroSupport/Tools/UnityEngine.AudioModule.dll"
+-r:"C:\Program Files\Unity\Editor\Data\PlaybackEngines\MetroSupport/Tools/UnityEngine.GameCenterModule.dll"
+-r:"C:\Program Files\Unity\Editor\Data\PlaybackEngines\MetroSupport/Tools/UnityEngine.GridModule.dll"
+-r:"C:\Program Files\Unity\Editor\Data\PlaybackEngines\MetroSupport/Tools/UnityEngine.ImageConversionModule.dll"
+-r:"C:\Program Files\Unity\Editor\Data\PlaybackEngines\MetroSupport/Tools/UnityEngine.InputModule.dll"
+-r:"C:\Program Files\Unity\Editor\Data\PlaybackEngines\MetroSupport/Tools/UnityEngine.JSONSerializeModule.dll"
+-r:"C:\Program Files\Unity\Editor\Data\PlaybackEngines\MetroSupport/Tools/UnityEngine.ParticlesLegacyModule.dll"
+-r:"C:\Program Files\Unity\Editor\Data\PlaybackEngines\MetroSupport/Tools/UnityEngine.Physics2DModule.dll"
+-r:"C:\Program Files\Unity\Editor\Data\PlaybackEngines\MetroSupport/Tools/UnityEngine.ScreenCaptureModule.dll"
+-r:"C:\Program Files\Unity\Editor\Data\PlaybackEngines\MetroSupport/Tools/UnityEngine.SpriteMaskModule.dll"
+-r:"C:\Program Files\Unity\Editor\Data\PlaybackEngines\MetroSupport/Tools/UnityEngine.TerrainModule.dll"
+-r:"C:\Program Files\Unity\Editor\Data\PlaybackEngines\MetroSupport/Tools/UnityEngine.TilemapModule.dll"
+-r:"C:\Program Files\Unity\Editor\Data\PlaybackEngines\MetroSupport/Tools/UnityEngine.VideoModule.dll"
+-r:"C:\Program Files\Unity\Editor\Data\PlaybackEngines\MetroSupport/Tools/UnityEngine.WindModule.dll"
+-r:"C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll"
+-r:"C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/GUISystem/Editor/UnityEditor.UI.dll"
+-r:"C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/Networking/UnityEngine.Networking.dll"
+-r:"C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/Networking/Editor/UnityEditor.Networking.dll"
+-r:"C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/TestRunner/Editor/UnityEditor.TestRunner.dll"
+-r:"C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/TestRunner/UnityEngine.TestRunner.dll"
+-r:"C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/TestRunner/net35/unity-custom/nunit.framework.dll"
+-r:"C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/Timeline/RuntimeEditor/UnityEngine.Timeline.dll"
+-r:"C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/Timeline/Editor/UnityEditor.Timeline.dll"
+-r:"C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/TreeEditor/Editor/UnityEditor.TreeEditor.dll"
+-r:"C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/UIAutomation/UnityEngine.UIAutomation.dll"
+-r:"C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/UIAutomation/Editor/UnityEditor.UIAutomation.dll"
+-r:"C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/UnityGoogleAudioSpatializer/Editor/UnityEditor.GoogleAudioSpatializer.dll"
+-r:"C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/UnityGoogleAudioSpatializer/RuntimeEditor/UnityEngine.GoogleAudioSpatializer.dll"
+-r:"C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/UnityHoloLens/Editor/UnityEditor.HoloLens.dll"
+-r:"C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/UnityHoloLens/RuntimeEditor/UnityEngine.HoloLens.dll"
+-r:"C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/UnitySpatialTracking/Editor/UnityEditor.SpatialTracking.dll"
+-r:"C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/UnitySpatialTracking/RuntimeEditor/UnityEngine.SpatialTracking.dll"
+-r:"C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/UnityVR/Editor/UnityEditor.VR.dll"
+-r:"C:/Program Files/Unity/Editor/Data/Managed/UnityEditor.Graphs.dll"
+-r:"C:/Program Files/Unity/Editor/Data/PlaybackEngines/MetroSupport/UnityEditor.WSA.Extensions.dll"
+-r:"C:/Program Files/Unity/Editor/Data/PlaybackEngines/windowsstandalonesupport/UnityEditor.WindowsStandalone.Extensions.dll"
+-r:"C:/Program Files (x86)/Microsoft Visual Studio Tools for Unity/15.0/Editor/SyntaxTree.VisualStudio.Unity.Bridge.dll"
+-r:Assets/HoloToolkit/Utilities/Scripts/GLTF/Plugins/JsonNet/Newtonsoft.Json.dll
+-r:C:/Users/Nischita/AppData/LocalLow/Unity/cache/packages/packages.unity.com/com.unity.ads@1.0.7/Editor/UnityEditor.Advertisements.dll
+-r:C:/Users/Nischita/AppData/LocalLow/Unity/cache/packages/packages.unity.com/com.unity.analytics@1.0.1/UnityEngine.Analytics.dll
+-r:C:/Users/Nischita/AppData/LocalLow/Unity/cache/packages/packages.unity.com/com.unity.analytics@1.0.1/Editor/UnityEditor.Analytics.dll
+-r:C:/Users/Nischita/AppData/LocalLow/Unity/cache/packages/packages.unity.com/com.unity.purchasing@1.0.1/UnityEngine.Purchasing.dll
+-r:C:/Users/Nischita/AppData/LocalLow/Unity/cache/packages/packages.unity.com/com.unity.purchasing@1.0.1/Editor/UnityEditor.Purchasing.dll
+-define:UNITY_5_3_OR_NEWER
+-define:UNITY_5_4_OR_NEWER
+-define:UNITY_5_5_OR_NEWER
+-define:UNITY_5_6_OR_NEWER
+-define:UNITY_2017_1_OR_NEWER
+-define:UNITY_2017_2_OR_NEWER
+-define:UNITY_2017_2_1
+-define:UNITY_2017_2
+-define:UNITY_2017
+-define:UNITY_ANALYTICS
+-define:ENABLE_AUDIO
+-define:ENABLE_CACHING
+-define:ENABLE_CLOTH
+-define:ENABLE_GENERICS
+-define:ENABLE_PVR_GI
+-define:ENABLE_MICROPHONE
+-define:ENABLE_MULTIPLE_DISPLAYS
+-define:ENABLE_PHYSICS
+-define:ENABLE_SPRITERENDERER_FLIPPING
+-define:ENABLE_SPRITES
+-define:ENABLE_GRID
+-define:ENABLE_TILEMAP
+-define:ENABLE_TERRAIN
+-define:ENABLE_DIRECTOR
+-define:ENABLE_UNET
+-define:ENABLE_LZMA
+-define:ENABLE_UNITYEVENTS
+-define:ENABLE_WEBCAM
+-define:ENABLE_WWW
+-define:ENABLE_CLOUD_SERVICES_COLLAB
+-define:ENABLE_CLOUD_SERVICES_COLLAB_SOFTLOCKS
+-define:ENABLE_CLOUD_HUB
+-define:ENABLE_CLOUD_PROJECT_ID
+-define:ENABLE_CLOUD_SERVICES_USE_WEBREQUEST
+-define:ENABLE_CLOUD_SERVICES_UNET
+-define:ENABLE_CLOUD_SERVICES_BUILD
+-define:ENABLE_CLOUD_LICENSE
+-define:ENABLE_EDITOR_HUB
+-define:ENABLE_EDITOR_HUB_LICENSE
+-define:ENABLE_WEBSOCKET_CLIENT
+-define:ENABLE_DIRECTOR_AUDIO
+-define:ENABLE_TIMELINE
+-define:ENABLE_EDITOR_METRICS
+-define:ENABLE_EDITOR_METRICS_CACHING
+-define:ENABLE_NATIVE_ARRAY
+-define:ENABLE_SPRITE_MASKING
+-define:INCLUDE_DYNAMIC_GI
+-define:INCLUDE_GI
+-define:ENABLE_MONO_BDWGC
+-define:RENDER_SOFTWARE_CURSOR
+-define:INCLUDE_PUBNUB
+-define:ENABLE_PLAYMODE_TESTS_RUNNER
+-define:ENABLE_VIDEO
+-define:ENABLE_RMGUI
+-define:ENABLE_PACKMAN
+-define:ENABLE_CUSTOM_RENDER_TEXTURE
+-define:ENABLE_STYLE_SHEETS
+-define:PLATFORM_METRO
+-define:UNITY_METRO
+-define:UNITY_METRO_API
+-define:PLATFORM_WINRT
+-define:UNITY_WINRT
+-define:ENABLE_WINRT_PINVOKE
+-define:ENABLE_LAZY_METHOD_CACHING
+-define:ENABLE_MOVIES
+-define:ENABLE_CRUNCH_TEXTURE_COMPRESSION
+-define:ENABLE_NETWORK
+-define:ENABLE_EVENT_QUEUE
+-define:UNITY_PLATFORM_THREAD_TO_CORE_MAPPING
+-define:ENABLE_SUBSTANCE
+-define:PLATFORM_SUPPORTS_ADS_ID
+-define:ENABLE_UNITYWEBREQUEST
+-define:ENABLE_CLOUD_SERVICES
+-define:ENABLE_CLOUD_SERVICES_ADS
+-define:ENABLE_CLOUD_SERVICES_ANALYTICS
+-define:ENABLE_CLOUD_SERVICES_PURCHASING
+-define:ENABLE_CLOUD_SERVICES_CRASH_REPORTING
+-define:CURL_STATICLIB
+-define:ENABLE_VR
+-define:ENABLE_AR
+-define:ENABLE_SPATIALTRACKING
+-define:UNITY_WSA
+-define:ENABLE_DOTNET
+-define:ENABLE_PROFILER
+-define:UNITY_WSA_10_0
+-define:UNITY_WINRT_10_0
+-define:DEBUG
+-define:TRACE
+-define:UNITY_ASSERTIONS
+-define:UNITY_EDITOR
+-define:UNITY_EDITOR_64
+-define:UNITY_EDITOR_WIN
+-define:ENABLE_NATIVE_ARRAY_CHECKS
+-define:UNITY_TEAM_LICENSE
+-define:ENABLE_VSTU
+-define:UNITY_PRO_LICENSE
+Assets/HoloToolkit/BuildAndDeploy/Editor/BuildDeployPortal.cs
+Assets/HoloToolkit/BuildAndDeploy/Editor/BuildDeployPrefs.cs
+Assets/HoloToolkit/BuildAndDeploy/Editor/BuildDeployTools.cs
+Assets/HoloToolkit/BuildAndDeploy/Editor/BuildDeployWindow.cs
+Assets/HoloToolkit/BuildAndDeploy/Editor/BuildInfo.cs
+Assets/HoloToolkit/BuildAndDeploy/Editor/BuildSLNUtilities.cs
+Assets/HoloToolkit/BuildAndDeploy/Editor/CertificatePasswordWindow.cs
+Assets/HoloToolkit/BuildAndDeploy/Editor/CopyDirectoryInfo.cs
+Assets/HoloToolkit/BuildAndDeploy/Editor/HoloToolkitCommands.cs
+Assets/HoloToolkit/BuildAndDeploy/Editor/UwpProjectPostProcess.cs
+Assets/HoloToolkit/BuildAndDeploy/Editor/XdeGuestLocator.cs
+Assets/HoloToolkit/Input/Scripts/Editor/EditorHandsMaterialInspector.cs
+Assets/HoloToolkit/Input/Scripts/Editor/KeywordAndKeyCodeDrawer.cs
+Assets/HoloToolkit/Input/Scripts/Editor/MixedRealityCameraMangerEditor.cs
+Assets/HoloToolkit/Input/Scripts/Editor/SpeechInputHandlerEditor.cs
+Assets/HoloToolkit/Input/Scripts/Editor/SpeechInputSourceEditor.cs
+Assets/HoloToolkit/Input/Scripts/Editor/XboxControllerInputSourceEditor.cs
+Assets/HoloToolkit/Sharing/Scripts/Editor/SharingMenu.cs
+Assets/HoloToolkit/Sharing/Scripts/Editor/SharingStageEditor.cs
+Assets/HoloToolkit/SpatialMapping/Scripts/RemoteMapping/Editor/RoomMeshExporter.cs
+Assets/HoloToolkit/SpatialMapping/Scripts/SpatialProcessing/Editor/SurfaceMeshesToPlanesEditor.cs
+Assets/HoloToolkit/SpatialSound/Scripts/UAudioManager/Editor/UAudioManagerBaseEditor.cs
+Assets/HoloToolkit/SpatialSound/Scripts/UAudioManager/Editor/UAudioManagerEditor.cs
+Assets/HoloToolkit/SpatialSound/Scripts/UAudioManager/Editor/UAudioMiniManagerEditor.cs
+Assets/HoloToolkit/SpatialSound/Scripts/UAudioManager/Editor/UAudioProfiler.cs
+Assets/HoloToolkit/Utilities/Scripts/Editor/AutoConfigureMenu.cs
+Assets/HoloToolkit/Utilities/Scripts/Editor/AutoConfigureWindow.cs
+Assets/HoloToolkit/Utilities/Scripts/Editor/CapabilitySettingsWindow.cs
+Assets/HoloToolkit/Utilities/Scripts/Editor/EditorGUIExtensions.cs
+Assets/HoloToolkit/Utilities/Scripts/Editor/EditorGUILayoutExtensions.cs
+Assets/HoloToolkit/Utilities/Scripts/Editor/EditorPrefs.cs
+Assets/HoloToolkit/Utilities/Scripts/Editor/EnforceEditorSettings.cs
+Assets/HoloToolkit/Utilities/Scripts/Editor/ExternalProcess.cs
+Assets/HoloToolkit/Utilities/Scripts/Editor/HeadsetAdjustmentEditor.cs
+Assets/HoloToolkit/Utilities/Scripts/Editor/Int3Drawer.cs
+Assets/HoloToolkit/Utilities/Scripts/Editor/LayerMaskExtensions.cs
+Assets/HoloToolkit/Utilities/Scripts/Editor/OpenLocalFileEditor.cs
+Assets/HoloToolkit/Utilities/Scripts/Editor/OpenLocalFolderEditor.cs
+Assets/HoloToolkit/Utilities/Scripts/Editor/ProjectSettingsWindow.cs
+Assets/HoloToolkit/Utilities/Scripts/Editor/SaveLocalFileEditor.cs
+Assets/HoloToolkit/Utilities/Scripts/Editor/SceneLauncherEditor.cs
+Assets/HoloToolkit/Utilities/Scripts/Editor/SceneSettingsWindow.cs
+Assets/HoloToolkit/Utilities/Scripts/Editor/SetIconsWindow.cs
+Assets/HoloToolkit/Utilities/Scripts/Editor/TextureScale.cs
+Assets/HoloToolkit/Utilities/Scripts/Editor/USBDeviceInfo.cs
+Assets/HoloToolkit/Utilities/Scripts/Editor/USBDeviceListener.cs
+Assets/HoloToolkit/Utilities/Shaders/FastConfigurable/Editor/CustomMaterialEditor.cs
+Assets/HoloToolkit/Utilities/Shaders/FastConfigurable/Editor/FastConfigurable2SidedGUI.cs
+Assets/HoloToolkit/Utilities/Shaders/FastConfigurable/Editor/FastConfigurableGUI.cs
+Assets/HoloToolkit/Utilities/Shaders/FastConfigurable/Editor/ShaderGUIUtils.cs
+Assets/HoloToolkit/UX/Scripts/Editor/KeyboardInputFieldEditor.cs
+-r:"C:\Program Files\Unity\Editor\Data\MonoBleedingEdge\lib\mono\2.0-api\System.Runtime.Serialization.dll"
+-r:"C:\Program Files\Unity\Editor\Data\MonoBleedingEdge\lib\mono\2.0-api\System.Xml.Linq.dll"
+-r:"C:\Program Files\Unity\Editor\Data\MonoBleedingEdge\lib\mono\2.0-api\UnityScript.dll"
+-r:"C:\Program Files\Unity\Editor\Data\MonoBleedingEdge\lib\mono\2.0-api\UnityScript.Lang.dll"
+-r:"C:\Program Files\Unity\Editor\Data\MonoBleedingEdge\lib\mono\2.0-api\Boo.Lang.dll"
+-sdk:2.0

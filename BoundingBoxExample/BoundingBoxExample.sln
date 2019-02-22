@@ -1,0 +1,26 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BoundingBoxExample", "Assembly-CSharp.csproj", "{5516D4F8-AB39-DC93-7ADA-EA044908F189}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BoundingBoxExample", "Assembly-CSharp-Editor.csproj", "{45135874-BDDB-646B-94D8-AF3F4CE09C1C}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{5516D4F8-AB39-DC93-7ADA-EA044908F189}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5516D4F8-AB39-DC93-7ADA-EA044908F189}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5516D4F8-AB39-DC93-7ADA-EA044908F189}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5516D4F8-AB39-DC93-7ADA-EA044908F189}.Release|Any CPU.Build.0 = Release|Any CPU
+		{45135874-BDDB-646B-94D8-AF3F4CE09C1C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{45135874-BDDB-646B-94D8-AF3F4CE09C1C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{45135874-BDDB-646B-94D8-AF3F4CE09C1C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{45135874-BDDB-646B-94D8-AF3F4CE09C1C}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
