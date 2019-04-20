@@ -1,9 +1,9 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GazeAndTapExample", "Assembly-CSharp.csproj", "{A58A1D2E-D9DF-0F31-8A6D-12A149243C9C}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Assembly-CSharp", "Assembly-CSharp.csproj", "{A58A1D2E-D9DF-0F31-8A6D-12A149243C9C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GazeAndTapExample", "Assembly-CSharp-Editor.csproj", "{2CF4B83D-3597-CC28-D2EB-2C1BC0C637F0}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Assembly-CSharp-Editor", "Assembly-CSharp-Editor.csproj", "{2CF4B83D-3597-CC28-D2EB-2C1BC0C637F0}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
