@@ -1,2 +1,0 @@
-#include "Resource.h"
-IDC_HIDDEN_CURSOR             CURSOR                  "hiddenCursor.cur"
